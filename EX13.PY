@@ -1,0 +1,6 @@
+# Practical Example 4: Print this pattern using nested for loop:  markdown Copy code * ** *** **** *****  
+
+rows = 5
+for i in range(1, rows + 1):
+    # Print leading spaces for right alignment
+    print(" " * (rows - i) + "*" * i)
